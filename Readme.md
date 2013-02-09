@@ -5,9 +5,9 @@
 
 ## Installation
 
-  ```
-  $ component install component/matches-selector
-  ```
+```
+$ component install component/matches-selector
+```
 
 ## API
 
