@@ -11,17 +11,17 @@
 
 ## API
 
-  ```js
-  require('mutation-observer')
-  ```
+```js
+require('mutation-observer')
+```
 
-  will return one of the following:
+will return one of the following:
 
-  ```
-  MutationObserver
-  WebKitMutationObserver
-  MozMutationObserver
-  ```
+```
+MutationObserver
+WebKitMutationObserver
+MozMutationObserver
+```
 
 ## License
 
