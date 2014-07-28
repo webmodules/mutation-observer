@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ component install component/matches-selector
+$ component install component/mutation-observer
 ```
 
 ## API
