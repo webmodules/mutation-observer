@@ -1,28 +1,20 @@
 
 # mutation-observer
 
-  Exposes the `MutationObserver` constructor without testing for prefixes.
+  Exposes the native `MutationObserver` API provided by the browser, or a polyfill based on mutation events. (For compatibility with IE9-10.)
 
 ## Installation
 
-```
-$ component install component/mutation-observer
+```bash
+$ npm install mutation-observer
 ```
 
 ## API
 
-```js
-require('mutation-observer')
-```
-
-will return one of the following:
-
-```
-MutationObserver
-WebKitMutationObserver
-MozMutationObserver
+```javascript
+var MutationObserver = require('mutation-observer');
 ```
 
 ## License
 
-  MIT
+  BSD (See LICENSE file)
