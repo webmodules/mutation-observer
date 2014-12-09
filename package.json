@@ -1,0 +1,17 @@
+{
+  "name": "mutation-observer",
+  "description": "Exposes the `MutationObserver` API, or a polyfill based on mutation events for IE 9-10.",
+  "tags": [
+    "polyfill",
+    "webmodule",
+    "mutation",
+    "observer",
+    "browser"
+  ],
+  "version": "1.0.0",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:webmodules/mutation-observer.git"
+  }
+}
