@@ -12,6 +12,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:webmodules/mutation-observer.git"
+    "url": "git://github.com/webmodules/mutation-observer.git"
   }
 }
