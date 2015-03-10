@@ -1,4 +1,10 @@
 
+1.0.1 / 2015-03-10
+==================
+
+  * package: re-add the "component" section
+  * package: use public git URL
+
 1.0.0 / 2014-12-09
 ==================
 
