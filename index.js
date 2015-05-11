@@ -47,6 +47,8 @@ if (typeof WeakMap === 'undefined') {
   };
 }
 
+var registrationsTable = new WeakMap();
+
 var setImmediate;
 
 // As much as we would like to use the native implementation, IE
