@@ -32,7 +32,7 @@ if (typeof WeakMap === 'undefined') {
       return (entry = key[this.name]) && entry[0] === key ?
           entry[1] : undefined;
     },
-    delete: function(key) {
+    'delete': function(key) {
       var entry = key[this.name];
       if (!entry) return false;
       var hasValue = entry[0] === key;
