@@ -1,4 +1,9 @@
 
+1.0.2 / 2015-07-07
+==================
+
+  * fix delete as a reserved word issue on IE8 (#4, @kaesonho)
+
 1.0.1 / 2015-03-10
 ==================
 
