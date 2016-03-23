@@ -582,4 +582,6 @@ if (!MutationObserver) {
   MutationObserver = JsMutationObserver;
 }
 
-module.exports = MutationObserver;
+if (typeof module !== 'undefined') {
+  module.exports = MutationObserver;
+}
