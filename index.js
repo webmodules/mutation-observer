@@ -488,7 +488,7 @@ Registration.prototype = {
 
         // 2.
         var oldValue = null;
-        if (!(MutationEvent != 'undefined' && e.attrChange === MutationEvent.ADDITION))
+        if (!(typeof MutationEvent !== 'undefined' && e.attrChange === MutationEvent.ADDITION))
           oldValue = e.prevValue;
 
         forEachAncestorAndObserverEnqueueRecord(target, function(options) {
