@@ -487,8 +487,9 @@ Registration.prototype = {
         record.attributeNamespace = namespace;
 
         // 2.
-        var oldValue =
-            e.attrChange === MutationEvent.ADDITION ? null : e.prevValue;
+        var oldValue = null;
+        if (!(typeof MutationEvent !== 'undefined' && e.attrChange === MutationEvent.ADDITION))
+          oldValue = e.prevValue;
 
         forEachAncestorAndObserverEnqueueRecord(target, function(options) {
           // 3.1, 4.2
