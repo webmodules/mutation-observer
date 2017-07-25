@@ -1,4 +1,9 @@
 
+1.0.3 / 2017-07-25
+==================
+
+  * With the posibility of the MutationEvent being deprecated, check if exists prior to usage (#8)
+
 1.0.2 / 2015-07-07
 ==================
 
