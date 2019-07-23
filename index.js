@@ -190,6 +190,11 @@ JsMutationObserver.prototype = {
   observe: function(target, options) {
     target = wrapIfNeeded(target);
 
+    var needsAttributes = options.hasOwnProperty('attributeOldValue') || options.hasOwnProperty('attributeFilter');
+    if (needsAttributes && !options.hasOwnProperty('attributes')) {
+      options.attributes = true;
+    }
+
     // 1.1
     if (!options.childList && !options.attributes && !options.characterData ||
 
